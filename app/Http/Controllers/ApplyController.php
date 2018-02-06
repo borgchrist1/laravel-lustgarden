@@ -8,7 +8,7 @@ class ApplyController extends Controller
 {
     public function index()
     {
-        return view('apply');
+        return view('pages.apply');
     }
 
     public function saveApplication(Request $request)

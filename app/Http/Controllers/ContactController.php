@@ -8,7 +8,7 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view('welcome');
+        return view('pages.contact');
     }
 
     public function saveMessage() 

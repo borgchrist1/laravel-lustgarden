@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-   <main class="bd-masthead" id="content" role="main">
+   <main class="" id="content" role="main">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6 mx-auto col-md-6 order-md-2">
@@ -11,9 +11,6 @@
                     <p class="lead">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type 
-                    specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged.
                     </p>
                     <p class="lead mb-4">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -22,12 +19,23 @@
                     specimen book. It has survived not only five centuries, but also the leap into 
                     electronic typesetting, remaining essentially unchanged.    
                     </p>
+                    <div class="bg-light col-md-8 d-flex flex-row">
+                    <span class="p-2">
+                        <img src="/img/funny.png" height="100"  alt="">
+                    </span>
+                    <span class="p-2">
+                        <small>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    </small> 
+                    </span>
+                    </div>
                 </div>
             </div>
         </div>
    </main>
-   <div class="masthead-followup row m-0 border border-white">
+   <div class="row border m-0 border-white">
         <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+            <h3 style="color: #573b7b;">Lorem Ipsum</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type 
@@ -36,6 +44,7 @@
             </p>
         </div>
         <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+            <h3 style="color: #ffc107;">Lorem Ipsum</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type 
@@ -44,7 +53,8 @@
             </p>
         </div>
         <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            <h3 style="color: #63aa5f;">Lorem Ipsum</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type 
                 specimen book. It has survived not only five centuries, but also the leap into 

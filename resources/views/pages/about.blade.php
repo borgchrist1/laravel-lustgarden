@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<main class="" id="content" role="main">
+<main class="main" id="content" role="main">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6 mx-auto col-md-6 order-md-2">
@@ -34,6 +34,7 @@
                 specimen book. It has survived not only five centuries, but also the leap into 
                 electronic typesetting, remaining essentially unchanged.
             </p>
+            <button type="button" class="btn btn-outline-info">Läs mer</button>
         </div>
         <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -42,6 +43,7 @@
                 specimen book. It has survived not only five centuries, but also the leap into 
                 electronic typesetting, remaining essentially unchanged.
             </p>
+            <button type="button" class="btn btn-outline-info">Läs mer</button>
         </div>
         <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -50,6 +52,7 @@
                 specimen book. It has survived not only five centuries, but also the leap into 
                 electronic typesetting, remaining essentially unchanged.
             </p>
+            <button type="button" class="btn btn-outline-info">Läs mer</button>
         </div>
    </div>
 @stop
